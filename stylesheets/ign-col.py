@@ -13,7 +13,7 @@ for file in files:
                         chars = list(line)
                         filled_line = ''
                         for char in chars:
-                            if char !=' ':
+                            if char !=' ' and char != chr(9):
                                 filled_line += char
                         chars = list(filled_line)
                         if len(chars) == 0:
