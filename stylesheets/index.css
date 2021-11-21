@@ -15,14 +15,12 @@ header{
   margin-left: auto;
   margin-right: auto;
 }
-
 .logo .title{
   position: absolute;
   width: 800px;
   font-family: 'Homemade Apple';
   font-size: 30pt;
 }
-
 .logo .main{
   margin-top: 20px;
   width: 800px;
@@ -30,11 +28,9 @@ header{
   font-size: 72px;
   position: absolute;
 }
-
 .logo .main span{
   font-size: 144px;
 }
-
 .logo .jp{
   width: 800px;
   position: absolute;
@@ -47,14 +43,12 @@ header{
   padding-top: 240px;
   text-align: right;
 }
-
 .header li {
   font-size: 16px;
   display: inline;
   margin-right: 100px;
   font-family: 'roboto';
 }
-
 .header li a{
   text-decoration: none;
   color: #000;
@@ -65,33 +59,119 @@ main section{
   border-radius: 75px;
   padding: 3.2vw 5vw;
 }
-
 main section h1{
   font-family: 'Allura';
   font-size: 80px;
   width: 100%;
   text-align: center;
 }
-
 main section h2{
   font-family: 'Allura';
   font-size: 48px;
+  text-align: center;
 }
-
 main section h3{
   font-size: 32px;
   width: 100%;
-  text-align: center;
 }
-
 main section div{
   float: left;
   margin-top: 3.2vw;
 }
-main section .about-our-app-ul{
+
+#about-our-app{
+  background-color: #d7fce9;
+  height: 653pt;
+}
+#about-our-app ul{
   float: left;
   margin-left: 100px;
+  font-size: 16px;
+}
+#about-our-app .nayami-ul{
   margin-top: 3.2vw;
+}
+#about-our-app .sokode-ul{
+  margin-top: 6.4vw;
+}
+
+#functions{
+  background-color: #fffecf;
+  height: 1267px;
+}
+#functions .main-functions{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#functions .special-functions{
+  width: 50%;
+  height: 350px;
+}
+.special-functions .text{
+  float: left;
+  margin-top: 0px;
+}
+.special-functions .text p{
+  width: 400px;
+}
+.special-functions img{
+  float: left;
+  margin-left: 50px;
+  width: 20%;
+}
+
+#team-introduction{
+  background-color: #ffdace;
+  height: 1334px;
+  width: 80vw;
+}
+#team-introduction .left{
+  width: 38.5vw;
+  padding-right: 2.5vh;
+  background-color: #fff;
+}
+#team-introduction .right{
+  width: 38.5vw;
+  padding-left: 2.5vh;
+}
+
+.intro-li{
+  display: inline;
+}
+.intro{
+  margin: 30px 50px;
+  font-size: 22px;
+}
+.intro .image{
+  width: 150px;
+  height: 150px;
+  border-radius: 40px;
+  float: left;
+}
+.intro .content{
+  margin: 0px 0px 0px 30px;
+}
+.intro .content .name{
+  font-weight: bold;
+}
+.intro .content .text{
+  background-color: #ffece7;
+  border-radius: 20px;
+  padding: 10px;
+  width: 430px;
+}
+
+.contact{
+  margin-top: 200px;
+  font-size: 32px;
+  font-weight: thin;
+  font-family: 'Roboto';
+}
+.contact h3{
+  font-size: 32px;
+  font-family: 'Allura';
+  text-align: left;
 }
 
 footer{
