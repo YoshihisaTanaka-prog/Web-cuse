@@ -88,11 +88,27 @@ main section div{
   margin-left: 100px;
   font-size: 16px;
 }
-#about-our-app .nayami-ul{
-  margin-top: 3.2vw;
+.nayami{
+  width: 35vw;
+  background-image: url();
 }
-#about-our-app .sokode-ul{
+.nayami img{
+  float: left;
+}
+.nayami ul{
+  margin-top: 3.2vw;
+  width: 300px;
+}
+.sokode{
+  width: 35vw;
+  float: right;
+}
+.sokode img{
+  float: right;
+}
+.sokode ul{
   margin-top: 6.4vw;
+  width: 300px;
 }
 
 #functions{
@@ -164,6 +180,7 @@ main section div{
 
 .contact{
   margin-top: 200px;
+  margin-left: 50px;
   font-size: 32px;
   font-weight: thin;
   font-family: 'Roboto';
