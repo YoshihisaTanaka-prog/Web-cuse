@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  min-width: 900px;
+}
+
 header{
   height: 280px;
   background-color: #efe6df;
@@ -90,10 +95,14 @@ main section div{
 }
 .nayami{
   width: 35vw;
-  background-image: url();
+  background-image: url(../images/nayami-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 740px;
 }
 .nayami img{
   float: left;
+  width: 150px;
 }
 .nayami ul{
   margin-top: 3.2vw;
@@ -102,13 +111,18 @@ main section div{
 .sokode{
   width: 35vw;
   float: right;
+  background-image: url(../images/sokode-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 740px;
 }
 .sokode img{
   float: right;
+  width: 150px;
 }
 .sokode ul{
-  margin-top: 6.4vw;
-  width: 300px;
+  margin-top: 3.2vw;
+  width: 250px;
 }
 
 #functions{
@@ -116,13 +130,20 @@ main section div{
   height: 1267px;
 }
 #functions .main-functions{
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  width: 80vw;
+  height: 8.8vw;
+  margin-top: 0px;
+  background-image: url(../images/main-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #functions .special-functions{
   width: 50%;
   height: 350px;
+  background-image: url(../images/special-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 740px;
 }
 .special-functions .text{
   float: left;
@@ -139,17 +160,22 @@ main section div{
 
 #team-introduction{
   background-color: #ffdace;
-  height: 1334px;
+  height: 1400px;
   width: 80vw;
 }
 #team-introduction .left{
   width: 38.5vw;
-  padding-right: 2.5vh;
-  background-color: #fff;
+  height: 1250px;
+  margin-right: 2.5vh;
+  background-image: url(../images/team-back.png);
+  background-size: 740px 1250px;
+  background-repeat: no-repeat;
+  min-width: 740px;
 }
 #team-introduction .right{
+  min-width: 740px;
   width: 38.5vw;
-  padding-left: 2.5vh;
+  float: right;
 }
 
 .intro-li{
