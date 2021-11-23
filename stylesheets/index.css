@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    min-width: 900px;
+  }
+  
+  header{
+    height: 300px;
+    background-color: #efe6df;
+  }
+  
+  .logo{
+    position: relative;
+    text-align: center;
+    width: 800px;
+    height: 226;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo .title{
+    position: absolute;
+    width: 800px;
+    font-family: 'Homemade Apple';
+    font-size: 30pt;
+  }
+  .logo .main{
+    margin-top: 20px;
+    width: 800px;
+    font-family: 'Homemade Apple';
+    font-size: 72px;
+    position: absolute;
+  }
+  .logo .main span{
+    font-size: 144px;
+  }
+  .logo .jp{
+    width: 800px;
+    position: absolute;
+    margin-top: 220px;
+    font-family: 'Roboto';
+    font-size: 24px;
+  }
+  
+  .header ul{
+    padding-top: 260px;
+    text-align: right;
+  }
+  .header li {
+    font-size: 16px;
+    display: inline;
+    margin-right: 100px;
+    font-family: 'roboto';
+  }
+  .header li a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main section{
+    margin: 3.2vw 5vw;
+    border-radius: 75px;
+    padding: 3.2vw 5vw;
+  }
+  main section h1{
+    font-family: 'Allura';
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  main section h2{
+    font-family: 'Allura';
+    font-size: 48px;
+    text-align: center;
+  }
+  main section h3{
+    font-size: 32px;
+    width: 100%;
+  }
+  main section div{
+    float: left;
+    margin-top: 3.2vw;
+  }
+  
+  #about-our-app{
+    background-color: #d7fce9;
+  }
+  #about-our-app ul{
+    float: left;
+    margin-left: 100px;
+    font-size: 16px;
+  }
+  .nayami-main{
+    width: 740px;
+  }
+  .nayami{
+    margin: 0;
+    width: 740;
+    height: 460px;
+    background-image: url(../images/nayami-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .nayami h3{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .nayami img{
+    float: left;
+    margin-top: 70px;
+  }
+  .nayami ul{
+    margin-top: 20px;
+    width: 350px;
+  }
+  .sokode-main{
+    width: 740px;
+    height: 420px;
+  }
+  .sokode{
+    float: right;
+    margin: 0;
+    width: 570px;
+    height: 420px;
+    background-image: url(../images/sokode-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .sokode h3{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .sokode img{
+    margin-top: 70px;
+    float: right;
+  }
+  .sokode ul{
+    margin-top: 40px;
+    padding-left: 0;
+    width: 250px;
+    float: left;
+  }
+  
+  #functions{
+    background-color: #fffecf;
+  }
+  #functions #main-function{
+    margin-top: 0px;
+    width: 100%;
+    background-image: url(../images/main-back.png);
+    background-repeat: no-repeat;
+  }
+  #functions #main-function p{
+    margin: 20px 40px 20px 40px;
+  }
+  #functions .special-functions{
+    width: 740px;
+    height: 350px;
+    background-image: url(../images/special-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .special-functions .text{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .special-functions .text p{
+    margin-top: 50px;
+    width: 400px;
+  }
+  .special-functions img{
+    margin-top: 50px;
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+  }
+  
+  #team-introduction{
+    background-color: #ffdace;
+  }
+  #team-introduction .left{
+    width: 740px;
+    height: 1250px;
+    background-image: url(../images/team-back.png);
+    background-size: 740px 1250px;
+    background-repeat: no-repeat;
+  }
+  #team-introduction .right{
+    width: 740px;
+    float: right;
+  }
+  
+  .intro-li{
+    display: inline;
+  }
+  .intro{
+    margin: 30px 50px;
+    font-size: 22px;
+  }
+  .intro .image{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    float: left;
+  }
+  .intro .content{
+    margin: 0px 0px 0px 30px;
+  }
+  .intro .content .name{
+    font-weight: bold;
+  }
+  .intro .content .text{
+    background-color: #ffece7;
+    border-radius: 20px;
+    padding: 10px;
+    width: 430px;
+  }
+  
+  #contact{
+    margin-left: 50px;
+    font-size: 32px;
+    font-weight: thin;
+    font-family: 'Roboto';
+  }
+  #contact h3{
+    font-size: 32px;
+    font-family: 'Allura';
+    text-align: left;
+  }
+  
+  footer{
+    background-color: #ffebd2;
+    height: 48px;
+  }
+  footer p{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .right-content{
+    float: right;
+  }

@@ -1,12 +1,38 @@
+const interval = Math.floor(1000 / 60 * 10);
+var resizeTimer;
+var width = 0;
+
 function setCSS() {
+    setMainFunctionBackground();
     width = document.body.clientWidth;
-    window.alert(width);
-    if (width < 1872) {
-        // 狭い場合
+    if ( width < 900 ) {
+        // メチャクチャ狭い場合
+        setThin();
+        ultraThinCSS();
+        // window.alert('1');
+    } else if (width < 1850) {
+        // 1段のみの場合
+        setThin();
+        thinCSS();
+        // window.alert('2');
+    } else if (width < 1921) {
+        // 2段構えできる場合
+        setWide();
+        wideCSS();
+        // window.alert('3');
     } else {
-        // 広い場合
+        // メチャクチャ広い場合
+        setWide();
+        ultraWideCSS();
+        // window.alert('4');
     }
 }
 
+window.addEventListener('resize', function (event) {
+    console.log('resizing');
+    if (resizeTimer !== false) {
+      clearTimeout(resizeTimer);
+    }
+    resizeTimer = setTimeout(setCSS, interval);
+});
 setCSS();
-window.onresize = setCSS;

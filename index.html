@@ -5,9 +5,8 @@
   <head><!--ページに表示されない情報(サイトの裏側の設定)-->
     <meta charset="utf-8">
     <title>オンラインゼミコミュニティー</title><!--ブラウザのタブのタイトルを指定-->
-    <!-- <link rel="stylesheet" href="./stylesheets/index.css"> -->
-    <!-- <link rel="stylesheet" href="./stylesheets/index-thin.css"> -->
-    <link rel="stylesheet" href="./stylesheets/index-wide.css">
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -37,32 +36,36 @@
     <main>
       <section id="about-our-app">
         <h1>About our App</h1>
-        <div class="nayami">
-          <h3><u>大学生の本業「学業」の悩みを一掃！</u></h3>
-          <img src="./images/komari-boy.png">
-          <ul>
-            <li>勉強のやる気が出ない</li>
-            <li>課題をさっさと片付けたい</li>
-            <li>周囲の勉強状況が知りたい</li>
-            <li>勉強計画を上手く立てられない</li>
-            <li>忙しい中で隙間時間を有効活用して勉強できたらなぁ…</li>
-          </ul>
+        <div class="nayami-main">
+          <div class="nayami">
+            <h3><u>大学生の本業「学業」の悩みを一掃！</u></h3>
+            <img src="./images/komari-boy.png">
+            <ul>
+              <li>勉強のやる気が出ない</li>
+              <li>課題をさっさと片付けたい</li>
+              <li>周囲の勉強状況が知りたい</li>
+              <li>勉強計画を上手く立てられない</li>
+              <li>忙しい中で隙間時間を有効活用して勉強できたらなぁ…</li>
+            </ul>
+          </div>
         </div>
-        <div class="sokode">
-          <h3><u>未だかつてない学習アプリ！</u></h3>
-          <ul>
-            <li>豊富な専門分野学習ルームで同志の学生が周囲に！</li>
-            <li>勉強×交流で学習効率&継続力UP！</li>
-            <li>一目でわかるタスク管理機能！</li>
-          </ul>
-          <img src="./images/smile-girl.png">
+        <div class="sokode-main right-content">
+          <div class="sokode">
+            <h3><u>未だかつてない学習アプリ！</u></h3>
+            <ul>
+              <li>豊富な専門分野学習ルームで同志の学生が周囲に！</li>
+              <li>勉強×交流で学習効率&継続力UP！</li>
+              <li>一目でわかるタスク管理機能！</li>
+            </ul>
+            <img src="./images/smile-girl.png">
+          </div>
         </div>
       </section>
 
       <section id="functions">
         <h1>Functions</h1> 
         <h2 style="text-align: center; width: 100%;"><u>Main Functions</u></h2>
-        <div class="main-functions">
+        <div id="main-function">
           <p>
             オンライン自習ルームを提供します。学習ルーム・休憩ルームの2種類があり、学習ルームは専門分野ごとに細かく部屋が分かれており、同じ専攻の学生同士で効率の良い学習空間の構築を目指します。休憩ルームでは制限時間付きで、ユーザー同士自由に交流ができます。
           </p>
@@ -79,7 +82,7 @@
           </div>
           <img src="./images/room-search.png">
         </div>
-        <div class="special-functions">
+        <div class="special-functions right-content">
           <div class="text">
             <h3>②目標設定&記録機能</h3>
             <p>
@@ -98,7 +101,7 @@
           </div>
           <img src="./images/friend.png">
         </div>
-        <div class="special-functions">
+        <div class="special-functions right-content">
           <div class="text">
             <h3>④カスタマイズ機能</h3>
             <p>
@@ -180,12 +183,12 @@
             </li>
           </ul>
         </div>
-        <div class="right">
+        <div class="right right-content">
           <center>
             <h2 style="margin-top: 50px;">Cuse Introduction Movie</h2>
-            <iframe src="https://youtu.be/khpyauTbAlY" width="640px" height="360" style="margin-top:150px;"></iframe>
+            <iframe src="https://youtu.be/khpyauTbAlY" width="640px" height="360" id="intro-iframe"></iframe>
           </center>
-          <div class="contact">
+          <div id="contact">
             <h2 style="text-align: left;">Contact</h2>
             <h3>Tel:</h3>
             080-XXXX-XXXX
@@ -199,6 +202,11 @@
     <footer>
       <p>Copyright © CUSE All Rights Reserved.</p>
     </footer>
-    <!-- <script type="text/javascript" src="./javascripts/index.js"></script> -->
+    <script type="text/javascript" src="./javascripts/index-first.js"></script>
+    <script type="text/javascript" src="./javascripts/index-ut.js"></script>
+    <script type="text/javascript" src="./javascripts/index-t.js"></script>
+    <script type="text/javascript" src="./javascripts/index-w.js"></script>
+    <script type="text/javascript" src="./javascripts/index-uw.js"></script>
+    <script type="text/javascript" src="./javascripts/index.js"></script>
   </body>
 </html>

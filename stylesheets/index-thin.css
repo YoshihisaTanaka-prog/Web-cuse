@@ -1,0 +1,15 @@
+#about-our-app{
+  background-color: #d7fce9;
+  height: 850pt; /* こ↑こ↓ */
+}
+
+#functions{
+  background-color: #fffecf;
+  height: 1900px; /* こ↑こ↓ */
+}
+
+#team-introduction{
+  background-color: #ffdace;
+  height: 2500px; /* こ↑こ↓ */
+  width: 80vw;
+}
