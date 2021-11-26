@@ -3,26 +3,21 @@ var resizeTimer;
 var width = 0;
 
 function setCSS() {
-    setMainFunctionBackground();
     width = document.body.clientWidth;
     if ( width < 900 ) {
         // メチャクチャ狭い場合
-        setThin();
         ultraThinCSS();
         // window.alert('1');
     } else if (width < 1850) {
         // 1段のみの場合
-        setThin();
         thinCSS();
         // window.alert('2');
     } else if (width < 1921) {
         // 2段構えできる場合
-        setWide();
         wideCSS();
         // window.alert('3');
     } else {
         // メチャクチャ広い場合
-        setWide();
         ultraWideCSS();
         // window.alert('4');
     }
